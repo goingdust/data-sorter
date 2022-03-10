@@ -54,7 +54,7 @@ class LinkedList {
         if (!this.head) {
             throw new Error('List is empty');
         }
-        return this.at(leftIndex).data > this.at(leftIndex).data;
+        return this.at(leftIndex).data > this.at(rightIndex).data;
     }
     swap(leftIndex, rightIndex) {
         const leftNode = this.at(leftIndex);
